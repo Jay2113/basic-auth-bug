@@ -13,7 +13,7 @@ export class AmplifyStage extends Stage {
   constructor(scope: Construct, id: string, props: AmplifyStageProps) {
     super(scope, id, props);
 
-    const repository = "https://github.com/Leejjon/basic-auth-bug";
+    const repository = "https://github.com/Jay2113/basic-auth-bug";
 
     new WebAmplifyStack(this, "WebAmplifyStack", {
       appName: "basic-auth-bug",
@@ -61,8 +61,7 @@ export class PipelineStack extends Stack {
         branchName: props.branchName,
         stageName: "DEVELOPMENT",
         domains: [
-            "pretopstelling.nl",
-            "opstelling.app"
+            "jraval.cloud"
         ]
       }),
     );

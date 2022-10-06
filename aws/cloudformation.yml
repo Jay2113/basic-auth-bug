@@ -29,7 +29,7 @@ Resources:
       EnableBranchAutoDeletion: true
       IAMServiceRole: !GetAtt AmplifyServiceRole.Arn
       Name: basic-auth-bug
-      Repository: "https://github.com/Leejjon/basic-auth-bug"
+      Repository: "https://github.com/Jay2113/basic-auth-bug"
       AccessToken: !Ref GitHubAccessToken
       BasicAuthConfig:
         EnableBasicAuth: true
